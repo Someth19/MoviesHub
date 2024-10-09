@@ -1,10 +1,16 @@
-
+import React from "react";
+import { BrowserRouter , Route, Routes } from 'react-router-dom';
+import Protection_Company from "./components/ProtectionEntry";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+    <BrowserRouter>
+      <Routes>
+          <Route path='/protection' element={<Protection_Company/>}></Route>
+      </Routes>
+    </BrowserRouter>
+  </>
   );
 }
 

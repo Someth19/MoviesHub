@@ -2,8 +2,23 @@
     --main-color: black;
     --primary-color: #E85C0D;
     --secondry-color: #E85C0D;
-
+    
     /* font */
     font-family: Arial, sans-serif;
+
+    /* imgae */
+    background: url('../resource//bgcPic.jpg');
+  }
+  .form-container{
+    width : 100%;
+    max-width: 500px;
+    margin: auto;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: var(--main-color);
+    opacity: 0.7;
   }
   
