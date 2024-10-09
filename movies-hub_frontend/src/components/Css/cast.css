@@ -3,3 +3,10 @@
     --primary-color: #E85C0D;
     --secondry-color: #E85C0D;
   }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; 
+}

@@ -2,8 +2,10 @@ import React from 'react'
 
 function CastEntry() {
   return (
-    <div>
-        
+    <div className='cast-container'>
+        <form action="">
+            
+        </form>
     </div>
   )
 }
