@@ -1,0 +1,66 @@
+:root {
+    --main-color: rgb(61, 53, 53);
+    --primary-color: #E85C0D;
+    --secondry-color: #E85C0D;
+    --text-color: white;
+}
+
+.movie-entry-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--main-color); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color: var(--text-color); 
+}
+
+.movie-entry-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  font-family: 'Arial', sans-serif;
+}
+
+.movie-entry-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-entry-container label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: var(--text-color); 
+}
+
+.movie-entry-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--primary-color); 
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fff;
+  color: var(--main-color); 
+}
+
+.movie-entry-container button {
+  padding: 10px 20px;
+  background-color: var(--primary-color); 
+  color: var(--text-color); 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.movie-entry-container button:hover {
+  background-color: var(--secondry-color); 
+}
+
+.movie-entry-container input:focus,
+.movie-entry-container button:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px var(--primary-color);
+}
