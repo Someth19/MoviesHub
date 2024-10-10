@@ -1,12 +1,12 @@
 import { BrowserRouter , Router, Route, Routes } from 'react-router-dom';
-import Protection_Company from './components/ProtectionEntry';
+import ProtectionCompany from './components/ProtectionEntry';
 function App() {
   return (
     <>
     
     <BrowserRouter>
       <Routes>
-          <Route path='/production' element={<Protection_Company/>}></Route>
+          <Route path='/production' element={<ProtectionCompany/>}></Route>
           
       </Routes>
     </BrowserRouter>

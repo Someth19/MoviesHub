@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useNavigate} from "react-router-dom";
 import './Css/style.css'
 import './Css/production.css'
-const Protection_Company = () => {
+const ProtectionCompany = () => {
     return (
         <div className="form-container">
             <h2>Company Information</h2>
@@ -43,4 +43,4 @@ const Protection_Company = () => {
     )
 };
 
-export default Protection_Company;
+export default ProtectionCompany;

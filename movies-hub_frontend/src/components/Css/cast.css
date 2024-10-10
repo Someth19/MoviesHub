@@ -16,5 +16,11 @@
 
 }
 body{
-    background-color: var(--main-color);
+    background-color: var(--primary-color);
+}
+h1{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2em;
 }
