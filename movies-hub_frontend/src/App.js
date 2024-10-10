@@ -1,10 +1,16 @@
-
-
+import { BrowserRouter , Router, Route, Routes } from 'react-router-dom';
+import Protection_Company from './components/ProtectionEntry';
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+    
+    <BrowserRouter>
+      <Routes>
+          <Route path='/production' element={<Protection_Company/>}></Route>
+          
+      </Routes>
+    </BrowserRouter>
+  </>
   );
 }
 
